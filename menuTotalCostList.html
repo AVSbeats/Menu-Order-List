@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      Author: Abraham Vallejos-Soto
+      Date:   2/17/2023
+
+      Filename: menuTotalCostList.html
+   -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hands-on Project 3-1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="menuTotalCostList.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Menu & Total Order List</h1>
+    </header>
+
+    <article>
+      <h2>Lunch selections</h2>
+      <form>
+        <input type="checkbox" class="menuItem" id="item1" value="11.95" />
+        <label for="item1">Fried Chicken ($11.95)</label>
+        <input type="checkbox" class="menuItem" id="item2" value="13.95" />
+        <label for="item2">Fried Halibut ($13.95)</label>
+        <input type="checkbox" class="menuItem" id="item3" value="10.95" />
+        <label for="item3">Hamburger ($10.95)</label>
+        <input type="checkbox" class="menuItem" id="item4" value="17.95" />
+        <label for="item4">Grilled Salmon ($17.95)</label>
+        <input type="checkbox" class="menuItem" id="item5" value="8.95" />
+        <label for="item5">Side Salad ($8.95)</label>
+        <input type="checkbox" class="menuItem" id="item6" value="9.99" />
+        <label for="item6">Chicken Salad ($9.99)</label>
+        <input type="checkbox" class="menuItem" id="item7" value="18.95" />
+        <label for="item7">Lomo Saltado ($18.95)</label>
+        <input type="checkbox" class="menuItem" id="item8" value="33.33" />
+        <label for="item8">Churrasco con Tostones ($33.33)</label>
+        <input type="checkbox" class="menuItem" id="item9" value="42.99" />
+        <label for="item9">Salmon a La Carta ($42.99)</label>
+        <input type="checkbox" class="menuItem" id="item10" value="12.99" />
+        <label for="item10">Chick-Fil-Hey ($12.99)</label>
+        <input type="checkbox" class="menuItem" id="item11" value="13.99" />
+        <label for="item11">Double Whooping Burger ($13.99)</label>
+        <input type="checkbox" class="menuItem" id="item12" value="49.99" />
+        <label for="item12">Baby a la Brasa ($49.99)</label>
+        <input type="checkbox" class="menuItem" id="item13" value="4.99" />
+        <label for="item13">Madre's Famous White Eggs ($4.99)</label>
+        <input type="checkbox" class="menuItem" id="item14" value="19.99" />
+        <label for="item14">Violeta's Special Cycle Count Dish ($19.99)</label>
+        <input type="checkbox" class="menuItem" id="item15" value="7.99" />
+        <label for="item15">Pork Dumplins ($7.99)</label>
+      </form>
+      <h2>Drink selections</h2>
+      <form>
+        <input type="checkbox" class="menuItem" id="item15" value="11.95" />
+        <label for="item15">Holy Water ($21.95)</label>
+        <input type="checkbox" class="menuItem" id="item16" value="6.99" />
+        <label for="item16">Organic Orange Juice ($6.99)</label>
+        <input type="checkbox" class="menuItem" id="item17" value="2.99" />
+        <label for="item17">Strawberry Lemonade ($2.99)</label>
+        <input type="checkbox" class="menuItem" id="item18" value="3.99" />
+        <label for="item18">Matcha Green Tea ($3.99)</label>
+        <input type="checkbox" class="menuItem" id="item19" value="16.99" />
+        <label for="item19">Jewish Wine ($16.99)</label>
+      </form>
+
+      <h2>Dessert</h2>
+      <form>
+        <input type="checkbox" class="menuItem" id="item20" value="10.95" />
+        <label for="item20">Caramel Cheesecake ($10.95)</label>
+        <input type="checkbox" class="menuItem" id="item21" value="9.99" />
+        <label for="item21">Lucuma Icecream ($9.99)</label>
+        <input type="checkbox" class="menuItem" id="item22" value="11.95" />
+        <label for="item22">Peruvian Picarones ($11.95)</label>
+      </form>
+
+      <aside>Total Order Cost: <span id="billTotal">$0</span></aside>
+    </article>
+  </body>
+</html>
